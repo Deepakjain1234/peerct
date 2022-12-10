@@ -1,0 +1,108 @@
+.howitswork-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #171717; */
+
+    
+}
+
+.inner-howitswork {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 72%;
+    margin: 42px 0px;
+
+}
+
+.howitswork-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #171717; */
+    height: 279px;
+    width: 26%;
+    text-align: center;
+    border-radius: 19px;
+    padding: 18px;
+    /* color: white; */
+}
+.howitwork-main
+{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.howitswork-div h2 {
+    color: white;
+    margin: 20px 0px;
+}
+.howitswork-div p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.number-with-blue
+{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #2D88FF;
+}
+
+.heading-div
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #2D88FF;
+}
+
+@media(max-width:1000px)
+{
+    .inner-howitswork {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 91%;
+        margin: 42px 0px;
+    }
+}
+@media(max-width:700px)
+{
+    .howitwork-main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .howitswork-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: #171717; */
+        height: 279px;
+        width: 248px;
+        text-align: center;
+        border-radius: 19px;
+        padding: 18px;
+        /* color: white; */
+    }    
+}

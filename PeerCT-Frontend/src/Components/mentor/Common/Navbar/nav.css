@@ -1,0 +1,289 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.03);
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* z-index: 45; */
+    /* background-color: transparent; */
+    user-select: none;
+    font-family: "Roboto", sans-serif;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  .navbarlogin {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .logo {
+    font-family: "Courgette", cursive;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes background {
+    0% {
+      background-position: 0%;
+    }
+    50% {
+      background-position: 50%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  .navbar
+  {
+    border-bottom: none;
+  }
+  .logo img {
+    height: 80px;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+  }
+  nav ul li a:hover {
+    -webkit-text-fill-color: unset;
+    background: none;
+    background-color: var(--hover-nav-color);
+  
+    transition: all 0.3s ease-out;
+    border-radius: 7px;
+  }
+  .simbtn {
+    font-size: 22px;
+    background-color: #e6f2fa;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  
+  .colorbtn {
+    font-size: 22px;
+    background-color: #e6f2fa;
+    color: #0266d9;
+    padding: 10px 17px;
+    border-radius: 15px;
+    border: 3px solid #0266d9;
+  }
+  
+  #colorbtn1 {
+    font-size: 22px;
+    background-color: #e6f2fa;
+    color: #0266d9;
+    padding: 10px 17px;
+    border-radius: 15px;
+    border: 3px solid #0266d9;
+    text-decoration: none;
+  }
+  
+  #colorbtn2 {
+    font-size: 22px;
+    background-color: #e6f2fa;
+    color: #0266d9;
+    padding: 10px 17px;
+    border-radius: 15px;
+    border: 3px solid #0266d9;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 900px) {
+    nav {
+      /* justify-content: space-between; */
+      height: 65px;
+      /* padding: 0px 25px; */
+      background-color: #e6f2fa;
+    }
+    .logo img {
+      height: 45px;
+    }
+    nav .menu-btn {
+      display: none;
+    }
+    .navbar {
+      display: none;
+    }
+    nav .menu-icon {
+      cursor: pointer;
+      float: right;
+      padding: 0px 28px;
+      position: relative;
+      user-select: none;
+    }
+    nav .menu-icon .nav-icon {
+      background-color: white;
+      display: block;
+      height: 2px;
+      position: relative;
+      width: 18px;
+      transition: background 0.3s ease-in-out;
+      float: right;
+    }
+    nav .menu-icon .nav-icon::before,
+    nav .menu-icon .nav-icon::after {
+      content: "";
+      background: white;
+      height: 100%;
+      position: absolute;
+      display: block;
+      transition: all 0.3s ease-in-out;
+      width: 100%;
+    }
+    nav .menu-icon .nav-icon::before {
+      top: 5px;
+    }
+    nav .menu-icon .nav-icon::after {
+      top: -5px;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon {
+      background: transparent;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:before {
+      transform: rotate(-45deg);
+      top: 0;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:after {
+      transform: rotate(45deg);
+      top: 0;
+    }
+    nav .menu-btn:checked ~ .navbar {
+      display: block;
+    }
+    nav .menu-icon {
+      display: block;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 5px 10px 15px rgb(0 0 0 / 3%);
+        /* position: absolute; */
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 45;
+        background-color: #232323;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        background-color: #232323;
+        border-bottom: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: 100;
+    }
+    .logo {
+      font-family: "Courgette", cursive;
+      font-size: 1.5rem;
+      margin-left: 17px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar li {
+      width: 100vw;
+      text-align: center;
+    }
+    nav .navbar li a {
+      /* width: 100%; */
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 25px;
+    }
+    .loginanddot {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .innerheader h1 {
+      font-size: 55px;
+      color: rgb(80, 36, 109);
+    }
+    .innerheader h2 {
+      font-size: 28px;
+      color: rgb(72, 56, 117);
+    }
+    .simbtn {
+      display: none;
+    }
+    .colorbtn {
+      font-size: 19px;
+      background-color: #e6f2fa;
+      color: #0266d9;
+      padding: 8px 15px;
+      border-radius: 10px;
+      border: 2px solid #0266d9;
+    }
+    #colorbtn1 {
+      font-size: 19px;
+      background-color: #e6f2fa;
+      color: #0266d9;
+      padding: 8px 15px;
+      border-radius: 10px;
+      border: 2px solid #0266d9;
+    }
+    #colorbtn2 {
+      font-size: 19px;
+      background-color: #e6f2fa;
+      color: #0266d9;
+      padding: 8px 15px;
+      border-radius: 10px;
+      border: 2px solid #0266d9;
+    }
+    .navbarlogin {
+      /* font-size: 22px; */
+      /* background-color: #e6f2fa; */
+      color: black;
+      border: none;
+      /* padding: 12px 20px; */
+      text-decoration: none;
+      display: inline-block;
+      /* width: 100%; */
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 25px;
+    }
+  
+    .download {
+      background-color: #102a3d;
+    }
+  
+  }  

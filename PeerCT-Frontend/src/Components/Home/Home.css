@@ -1,0 +1,12 @@
+.bg-dark{
+    background: #232323;
+    padding-top: 60px;
+    color: #fff;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}

@@ -1,0 +1,91 @@
+.main-dashborad
+{
+    display: flex;
+    width: 100%;
+}
+.dashboard-left
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    background-color: #171717;
+    height: 100vh;
+}
+.dashboard-left img
+{
+    height: 59px;
+    width: 100px;
+    margin-top: 19px;
+    margin-bottom: 39px;
+}
+.side-bar-option
+{
+    color:white;
+}
+.option-side-bar h3{
+    margin: 13px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.dasboard-right
+{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.dashboard-navbar {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-icon-white {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60%;
+    margin: 12px 10px;
+}
+.navbar-icon-white img
+{
+    height: 30px;
+    width: 30px;
+}
+.right-navbar
+{
+    display: flex;
+}
+.avtar-icon img {
+    height: 50px;
+    margin: 9px 12px;
+    width: 50px;
+}
+.right-navbar button {
+    color: white;
+    padding: 12px 18px;
+    background-color: #2D88FF;
+    height: 55px;
+    margin: 12px 49px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.dashboard-navbar input {
+    height: 47px;
+    width: 38%;
+    margin: 11px 26px;
+    padding-left: 27px;
+    font-size: 17px;
+    border-radius: 12px;
+}
+.chat-box
+{
+    overflow-y: scroll;
+    height: 90vh;
+}

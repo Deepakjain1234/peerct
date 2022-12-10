@@ -1,0 +1,139 @@
+.mentorcard-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #171717;
+    height: 279px;
+    width: 245px;
+    text-align: center;
+    border-radius: 19px;
+    padding: 18px;
+    /* color: white; */
+    margin-bottom: 35px;
+}
+.blogcard-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #171717;
+    /* height: 279px; */
+    width: 252px;
+    text-align: center;
+    border-radius: 19px;
+    /* padding: 18px; */
+    color: white;
+    margin-bottom: 25px;
+}
+.mentorcard-div h2 {
+    color: white;
+    margin: 13px 0px;
+    font-size: 21px;
+    font-weight: 400;
+}
+.mentorcard-div h3 {
+    color: white;
+    /* margin: 13px 0px; */
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 9px;
+}
+
+.blogcard-div-head1 {
+    color: white;
+    font-size: 13px;
+    margin: 17px 7px;
+    text-align: initial;
+    font-weight: 300;
+}
+.blogcard-div-head2 {
+    color: white;
+    font-size: 14px;
+    margin: 5px 7px;
+    text-align: initial;
+    font-weight: 500;
+}
+.inner-blogcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4px 10px;
+}
+
+.groupdis-div {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #171717;
+    /* height: 279px; */
+    width: 333px;
+    text-align: center;
+    border-radius: 38px;
+    /* padding: 18px; */
+    color: white;
+}
+
+.groupdis-div-head1 {
+    color: white;
+    font-size: 28px;
+    margin: 8px 11px;
+    text-align: initial;
+    font-weight: 600;
+}
+.groupdis-div-head2 {
+    color: white;
+    font-size: 14px;
+    margin: 5px 7px;
+    text-align: initial;
+    font-weight: 100;
+}
+
+.inner-groupdis {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 3px 0px;
+}
+.inner-groupdis img
+{
+    margin-right: 14px;
+    margin-left: 2px;
+}
+.inner-groupdis h4 
+{
+    font-weight: 400;
+}
+.inner-groupdis h5
+{
+   font-weight: 300;
+}
+.network-mentor-card-btn {
+    color: white;
+    background-color: #2d88ff;
+    padding: 12px 21px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+#modify-network-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #171717;
+    height: 252px;
+    width: 198px;
+    text-align: center;
+    border-radius: 19px;
+    padding: 18px;
+    /* color: white; */
+    margin-bottom: 35px;
+    margin: 5px;
+}

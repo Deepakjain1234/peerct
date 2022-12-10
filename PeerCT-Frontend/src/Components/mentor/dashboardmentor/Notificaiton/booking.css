@@ -1,0 +1,29 @@
+.notification-box {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ffffff4f;
+}
+.notification-bell {
+    height: 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+.notification-bell img
+{
+    height: 45px;
+    width: 45px;
+}
+.notification-box p {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.notification-box span
+{
+    color: #2D88FF;
+}

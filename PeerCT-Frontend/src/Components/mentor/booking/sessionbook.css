@@ -1,0 +1,248 @@
+.session-booking-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.inner-section-booking {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.back-button {
+    color: #2D88FF;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 16px 0px;
+    margin-top: 23px;
+}
+
+.upper-booking-session {
+    display: flex;
+    width: 100%;
+    margin-top: 9px;
+}
+
+.left-upper-booking {
+    width: 40%;
+}
+
+.right-upper-booking {
+    width: 60%;
+
+}
+
+.booking-mentor {
+    display: flex;
+}
+
+.booking-mentor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.booking-mentor h3 {
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.booking-mentor h4 {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.booking-mentor img {
+    margin-right: 19px;
+    height: 63px;
+}
+
+.price-and-time {
+    display: flex;
+    margin: 14px 0px;
+    color: white;
+}
+
+.price-and-time p {
+    margin-left: 12px;
+}
+
+.right-upper-booking {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-upper-booking h3 {
+    color: #2D88FF;
+    font-size: 23px;
+}
+
+.scroll-content {
+    height: 147px;
+    overflow-y: scroll;
+    margin-top: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+
+
+.lower-booking-session {
+    width: 100%;
+    display: flex;
+    border-radius: 15px;
+    background-color: #171717;
+    margin-top: 24px;
+}
+
+.left-side-calender {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 394px;
+}
+
+.text-center {
+    color: #2D88FF;
+}
+
+.conform-booking-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inner-booking-form {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.inner-booking-form input {
+    width: 45%;
+    height: 45px;
+    padding-left: 20px;
+    margin: 21px 0px;
+    border-radius: 9px;
+}
+
+.inner-booking-form textarea {
+    background-color: white;
+}
+
+.upload-form {
+    background-color: white;
+    padding-top: 10px;
+    color: blue;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Upload Resume';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 300;
+    font-size: 10pt;
+    background-color: #2D88FF;
+    color: white;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+.conform-booking-form button {
+    margin: 21px 0px;
+    color: white;
+    background-color: #2D88FF;
+    padding: 13px 34px;
+    font-size: 21px;
+    border-radius: 12px;
+}
+
+
+.conform-booking-form h3 {
+    margin: 11px 12px;
+    font-size: 28px;
+    color: #2D88FF;
+}
+
+.conform-booking-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-calender {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.right-side-calender h3 {
+    color: #2D88FF;
+    ;
+}
+
+.main-slot-select {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.indi-slot {
+    color: white;
+    border: 3px solid #2D88FF;
+    padding: 14px 40px;
+    margin: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.active-slot {
+    background-color: #2D88FF;
+}
+
+.right-side-calender button {
+    color: white;
+    background-color: #2d88ff;
+    padding: 12px 50px;
+    font-size: 17px;
+    border-radius: 14px;
+}
+.react-calendar{
+    border-radius: 8px !important;
+    padding: 3px 8px;
+}
+.react-calendar button  {
+    border-radius: 5px;
+}

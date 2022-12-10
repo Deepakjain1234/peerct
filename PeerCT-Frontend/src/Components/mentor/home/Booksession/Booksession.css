@@ -1,0 +1,130 @@
+.booksession-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #171717;
+
+    
+}
+
+.inner-booksession {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 72%;
+    margin: 42px 0px;
+
+}
+
+.left-side-session
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-side-session
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: url('../../../../assets/img/mentor/New folder/Rectangle.png') center no-repeat;
+    height: 440px;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-side-session h1 {
+    color: white;
+    margin-top: 18px;
+}
+.right-side-session button {
+    color: white;
+    margin-bottom: 18px;
+    background-color: #2D88FF;
+    padding: 16px 50px;
+    border: none;
+    font-size: 22px;
+    border-radius: 12px;
+}
+
+
+.book11session {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 60%;
+    margin: 40px 0px;
+    border: 4px solid #2D88FF;
+    padding: 18px ;
+    border-radius: 13px;
+}
+
+.book11session h1 {
+    color: white;
+    font-size: 21px;
+    margin: 13px 0px;
+}
+
+.book11session p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media(max-width:1000px)
+{
+    .inner-booksession {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin: 42px 0px;
+    }
+}
+
+@media(max-width:750px)
+{
+    .book11session {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        width: 86%;
+        margin: 40px 0px;
+        border: 4px solid #2D88FF;
+        padding: 18px;
+        border-radius: 13px;
+    }
+}
+
+@media(max-width:600px)
+{
+    .inner-booksession {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 42px 0px;
+    }
+    .right-side-session {
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        background: url('../../../../assets/img/mentor/New folder/Rectangle.png') center no-repeat;
+        height: 440px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left-side-session {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

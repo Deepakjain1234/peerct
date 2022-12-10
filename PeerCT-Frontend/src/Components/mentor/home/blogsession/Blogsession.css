@@ -1,0 +1,65 @@
+.howitswork-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #171717; */
+
+    
+}
+
+.inner-howitswork2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 72%;
+    margin: 42px 0px;
+
+}
+
+
+.howitwork-main
+{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.howitswork-div h2 {
+    color: white;
+    margin: 20px 0px;
+}
+.howitswork-div p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.number-with-blue
+{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #2D88FF;
+}
+
+.heading-div
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #2D88FF;
+}
+
+.margin-top
+{
+    margin-top: 20px;
+}

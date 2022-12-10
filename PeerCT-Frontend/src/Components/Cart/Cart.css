@@ -1,0 +1,115 @@
+.heading-CART   {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background: #232323;
+    text-align: center;
+    padding: 20px 0;
+}
+.tags-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;   
+    background: #3A3A3A;
+    flex: 5;
+}
+.tags-cart span{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    flex: 1;
+}
+.main-cart-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #232323;
+}
+.cart{
+    width: 80%;
+}
+.hor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3A3A3A;
+    width: 100%;
+    color: #fff;
+}
+.single-product-cart{
+    color: #fff !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.product-name span{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+}
+.single-product-cart{
+    flex: 6;
+}
+.single-product-cart > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+.total-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    margin: 15px 2px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #000;
+}
+.section-2-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    background: #232323;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #000;
+}
+.grand-total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #000;
+}
+.sub-grand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+.total-cart{
+    color: blue;
+}
+.btn-checkout{
+    background: #004CFF;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 5px 20px;
+
+}

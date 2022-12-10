@@ -1,0 +1,163 @@
+.main-booking-dash
+{
+    display: flex;
+    flex-direction: column;
+}
+.booking-main-head {
+    display: flex;
+    padding: 25px 36px;
+}
+.booking-main-head h2 {
+    color: white;
+    font-size: 39px;
+}
+.booking-main1-head {
+    display: flex;
+    padding: 9px 21px;
+    border-bottom: 1px solid #ffffff3b;
+}
+.booking-main1-head h3 {
+    color: white;
+    margin: 1px 12px;
+}
+#active-head
+{
+  color: #2D88FF;
+  text-decoration: underline;
+}
+.main-upcoming-box1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #171717;
+    width: 70%;
+    margin: 21px 37px;
+    /* padding: 0px 12px; */
+    /* padding-bottom: 18px; */
+    border-radius: 7px;
+    justify-content: space-around;
+    padding: 9px 12px;
+}
+.upcoming-box-upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+}
+.upcoming-box-upper h2
+{
+    color: white;
+}
+.upcoming-box-upper p
+{
+    color: #2D88FF;
+}
+.upcoming-box-lower
+{
+    display: flex;
+    justify-content: space-between;
+}
+.lower-upcoming-left
+{
+    display: flex;
+    flex-direction: column;
+}
+.left-upcoming-part
+{
+    display: flex;
+    margin: 6px 17px;
+}
+.upcoming-icon-head {
+    display: flex;
+    
+    color: #2D88FF;
+    align-items: center;
+    margin: 0px 12px;
+    width: 100px;
+}
+.upcoming-icon-head img {
+    height: 27px;
+    margin-right: 6px;
+}
+.button1
+{
+    color: white;
+    background-color: #2D88FF;
+    padding: 10px 29px;
+    font-size: 20px;
+    border-radius: 9px;
+    border: none;
+    margin: 5px 15px;
+}
+
+.button2 {
+    color: white;
+    background-color: #171717;
+    padding: 10px 29px;
+    font-size: 20px;
+    border-radius: 9px;
+    border: 3px solid #2d88ff;
+    margin: 5px 15px;
+}
+.avtar-box
+{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.lower-upcoming-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.session-host-right {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.group-session-button
+{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.group-session-button p
+{
+    color: #2D88FF;
+}
+.upper-group-session p
+{
+    color: #2D88FF;
+    margin-bottom: 4px;
+}
+.upper-group-session h3
+{
+    color: white;
+    margin-bottom: 4px;
+}
+.group-session-left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.empty-data-box {
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 17px 26px;
+}
+.empty-data-box p {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+.empty-data-box button{
+    color: white;
+    background-color: #2d88ff;
+    padding: 13px 19px;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+}

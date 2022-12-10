@@ -1,0 +1,130 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-cat {
+    background: #3A3A3A;
+    padding: 15px 40px;
+}
+
+.choose-cat>span {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+.post-ad-cat {
+    background: #141414;
+    padding: 15px 40px;
+}
+
+.show-ad-cat {
+    margin: 20px 0 0 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.show-ad-cat>a>span {
+    font-size: 0.9rem;
+    color: #2D88FF;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+.section-ads {
+    background: #141414;
+    padding: 15px 40px;
+}
+
+.tittle-ad {
+    margin-bottom: 30px;
+}
+
+.tittle-ad>span {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+.input-ads {
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.placeholder-ad>span {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.space-label {
+    margin: 5px 0;
+}
+
+.small-des>span {
+    font-size: 0.6rem;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.05px;
+}
+
+.input-common-ad {
+    width: 100%;
+}
+
+.input-common-ad input,
+.input-common-ad textarea {
+    width: 50%;
+    padding: 12px 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    background: #DAD9D9;
+}
+
+.input-common-ad textarea {
+    height: 100px;
+}
+
+.horizontal-line-full {
+    width: 100%;
+    height: 2px;
+    background: #DAD9D9;
+}
+
+.price-ads input {
+    padding-left: 30px;
+}
+
+.price-ads label {
+    position: relative;
+    left: -49.6%;
+    padding: 5px 5px;
+    color: #000;
+    border-right: 2px solid black;
+}
+
+.ad-post-btn {
+    width: 50%;
+    padding: 10px 2px;
+    background: #2D88FF;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.input-upload-ad input[type=file] {
+    /* font-size: 100px; */
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}

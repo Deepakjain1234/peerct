@@ -1,0 +1,112 @@
+.logo-img-size {
+    height: 66px;
+    width: 163px;
+    margin-left: 26px;
+}
+.create-session-main
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.create-session-inner
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.back-box-upper
+{
+    margin: 12px 0px;
+    color: #2D88FF;
+}
+.back-box-upper h3
+{
+    font-weight: 300;
+}
+.create-session-head
+{
+    color: white;
+    margin: 20px 0px;
+}
+.create-session-head h2
+{
+    margin: 8px 0px;
+    font-size: 30px;
+}
+.create-session-head h5 {
+    margin: 7px 0px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.create-session-form
+{
+    display: flex;
+    flex-direction: column;
+}
+.create-session-form-upper
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.create-session-left
+{
+    width: 50%;
+}
+.create-session-right
+{
+    width: 50%;
+}
+.create-session-right p
+{
+    color: #2D88FF;
+    margin: 7px 0px;
+}
+.create-session-input
+{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.create-session-input input {
+    width: 80%;
+    height: 50px;
+    padding-left: 14px;
+    border-radius: 12px;
+}
+.create-session-input textarea {
+    width: 80%;
+    background-color: white;
+    border-radius: 12px;
+    height: 100px;
+}
+
+.create-session-input p {
+    width: 100%;
+    color: #2D88FF;
+    margin: 7px 0px;
+}
+.create-session-lower {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 31px 0px;
+}
+.back-button-create {
+    color: white;
+    background: none;
+    padding: 10px 30px;
+    font-size: 23px;
+    border: none;
+}
+.next-button-create {
+    color: white;
+    padding: 10px 30px;
+    font-size: 23px;
+    border: none;
+    background-color: #2d88ff;
+    border-radius: 10px;
+}

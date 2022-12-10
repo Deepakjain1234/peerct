@@ -1,0 +1,255 @@
+.homesection-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #171717; */
+
+    
+}
+
+.inner-homesection {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: 42px 0px;
+    border: 4px solid white;
+    border-radius: 25px;
+    padding: 74px 0px;
+    margin-top: 100px;
+}
+
+.inner-homesection h1
+{    color: #2D88FF;
+    font-size: 57px;
+    margin-bottom: 27px;
+}
+.inner-homesection p
+{
+    color: white;
+    font-size: 16px;
+}
+
+.homesection-button {
+    color: white;
+    background-color: #2D88FF;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 28px 0px;
+    border: none;
+    border-radius: 10px;
+}
+.mentor-circle {
+    position: absolute;
+    border-radius: 50%;
+}
+#photo1 {
+    left: 107px;
+    background-color: #FF9999;
+    height: 161px;
+
+}
+#photo2 {
+    left: 354px;
+    top: 115px;
+    background-color: #FFD466;
+    height: 100px;
+}
+#photo2 img
+{
+    height: 100px;
+}
+
+#photo3 {
+    left: 354px;
+    bottom: 218px;
+    background-color: #85E099;
+    height: 78px;
+    /* position: relative; */
+}
+#photo3 img
+{
+    height: 78px;
+}
+
+
+#photo4 {
+    right: 354px;
+    top: 147px;
+    background-color: #CDDAFF;
+    height: 100px;
+}
+#photo4 img
+{
+    height: 100px;
+}
+
+#photo5 {
+    right: 135px;
+    top: 291px;
+    background-color: #E08597;
+    height: 150px;
+}
+#photo5 img
+{
+    height: 150px;
+}
+
+@media( max-width:1250px)
+{
+    #photo1 {
+        left: 78px;
+        background-color: #FF9999;
+        height: 110px;
+        width: 110px;
+    }
+    #photo1 img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #photo5 img {
+        height: 110px;
+    }
+    #photo5 {
+        right: 66px;
+        top: 291px;
+        background-color: #E08597;
+        height: 110px;
+    }
+    
+}
+
+@media(max-width:950px)
+{
+    #photo2 {
+        left: 224px;
+        top: 115px;
+        background-color: #FFD466;
+        height: 100px;
+    }
+    #photo4 {
+        right: 256px;
+        top: 147px;
+        background-color: #CDDAFF;
+        height: 100px;
+    }
+    .inner-homesection {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        margin: 42px 0px;
+        border: 4px solid white;
+        border-radius: 25px;
+        padding: 75px 64px;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+@media(max-width:750px)
+{
+    #photo5 {
+        right: 36px;
+        top: 323px;
+        background-color: #E08597;
+        height: 110px;
+    }
+    #photo1 {
+        left: 28px;
+        background-color: #FF9999;
+        height: 110px;
+        width: 110px;
+    }
+    #photo4 {
+        right: 145px;
+        top: 119px;
+        background-color: #CDDAFF;
+        height: 100px;
+    }
+
+    #photo3 {
+        left: 288px;
+        bottom: 194px;
+        background-color: #85E099;
+        height: 78px;
+        /* position: relative; */
+    }
+    #photo2 img {
+        height: 66px;
+    }
+    #photo2 {
+        left: 134px;
+        top: 132px;
+        background-color: #FFD466;
+        height: 66px;
+    }
+    
+    
+}
+
+@media(max-width:500px)
+{
+    #photo1 {
+        left: 28px;
+        background-color: #FF9999;
+        height: 70px;
+        width: 70px;
+    }
+    #photo5 {
+        right: 36px;
+        top: 323px;
+        background-color: #E08597;
+        height: 70px;
+    }
+    #photo5 img {
+        height: 70px;}
+        #photo3 {
+            left: 217px;
+            bottom: 194px;
+            background-color: #85E099;
+            height: 60px;
+            /* position: relative; */
+        }
+        #photo3 img {
+            height: 60px;
+        }
+        #photo4 {
+            right: 72px;
+            top: 134px;
+            background-color: #CDDAFF;
+            height: 70px;
+        }
+        #photo4 img {
+            height: 70px;
+        }
+        #photo2 {
+            left: 87px;
+            top: 130px;
+            background-color: #FFD466;
+            height: 66px;
+        }
+        .inner-homesection h1 {
+            color: #2D88FF;
+            font-size: 40px;
+            margin-bottom: 27px;
+        }
+        .inner-homesection p {
+            color: white;
+            font-size: 12px;
+        }
+        .homesection-button {
+            color: white;
+            background-color: #2D88FF;
+            font-size: 17px;
+            padding: 10px 20px;
+            margin: 28px 0px;
+            border: none;
+            border-radius: 10px;
+        }
+}

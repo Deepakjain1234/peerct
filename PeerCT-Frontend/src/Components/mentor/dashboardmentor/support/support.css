@@ -1,0 +1,28 @@
+.support-main-content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.support-main-content input {
+    height: 49px;
+    padding-left: 21px;
+    margin-bottom: 19px;
+    border-radius: 12px;
+}
+
+.support-main-content textarea {
+    height: 150px;
+    background-color: white;
+    font-size: 20px;
+}
+.support-main-content button {
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    background-color: #2d88ff;
+    color: white;
+    border: none;
+    margin-top: 51px;
+    border-radius: 6px;
+}

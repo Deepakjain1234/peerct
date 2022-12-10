@@ -1,0 +1,124 @@
+
+.main-mentor-cont
+{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 27px 0px;
+}
+.blog-main-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+.side-blog-search h2 {
+    color: #2D88FF;
+    font-size: 30px;
+    margin: 16px 0px;
+}
+.side-blog-search input
+{
+    padding: 13px 21px;
+    border-radius: 7px;
+}
+.white
+{
+    color: white;
+}
+.no-underline
+{
+    text-decoration: none;
+}
+@media(max-width:900px)
+{
+    .blog-main-section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 80%;
+    }
+    .main-mentor-cont {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 27px 0px;
+    }
+    .side-blog-search {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .modify-search {
+        color: white;
+        background-color: #2D88FF;
+        padding: 13px 11px;
+        border: none;
+        border-radius: 5px;
+        /* height: 100%; */
+        width: 31%;
+        margin-top: 12px;
+    }
+    .modify-blog-top {
+        display: flex;
+        width: 80%;
+    }
+}
+
+@media(max-width:600px)
+{
+    .modify-blog-top {
+        display: flex;
+        width: 80%;
+        align-items: baseline;
+    }
+    .side-blog-search h2 {
+        color: #2D88FF;
+        font-size: 21px;
+        margin: 16px 0px;
+    }
+}
+
+@media(max-width:450px)
+
+{
+    .side-blog-search {
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+    }
+}
+@media(max-width:350px)
+{
+    .modify-blog-top {
+        display: flex;
+        width: 90%;
+        align-items: baseline;
+    }
+    .side-blog-search {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .blog-main-section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90%;
+    }
+    .modify-search {
+        color: white;
+        background-color: #2D88FF;
+        padding: 9px 11px;
+        border: none;
+        border-radius: 5px;
+        /* height: 100%; */
+        width: 31%;
+        margin-top: 12px;
+    }
+}
